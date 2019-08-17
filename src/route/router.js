@@ -1,5 +1,5 @@
-var es_server = require('../es/index');
-var hdfs_server = require('../hdfs/index');
+var es_server = require('../es');
+var hdfs_server = require('../hdfs');
 var url = require('url');
 
 function route(request) {
