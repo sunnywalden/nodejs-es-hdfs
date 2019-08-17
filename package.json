@@ -1,0 +1,19 @@
+{
+  "name": "data-center",
+  "version": "1.0.0",
+  "author": "SunnyWalden@gmail.com",
+  "contributors": "SunnyWaldenswife@gmail.com",
+  "description": "",
+  "main": "./src/node_modules/main/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js",
+    "dev": "supervisor index.js"
+  },
+  "repository": "git",
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
